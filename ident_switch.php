@@ -241,7 +241,7 @@ class ident_switch extends rcube_plugin
 			$prefix . 'port' => array('type' => 'text', 'size' => 5, 'placeholder' => 143),
 			$prefix . 'tls' => array('type' => 'checkbox'),
 			$prefix . 'username' => array('type' => 'text', 'size' => 64, 'placeholder' => $record['email']),
-			$prefix . 'password' => array('type' => 'password', 'size' => 64),
+			$prefix . 'password' => array('type' => 'password', 'size' => 256),
 			$prefix . 'delimiter' => array('type' => 'text', 'size' => 1, 'placeholder' => '.'),
 		);
 	}

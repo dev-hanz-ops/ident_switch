@@ -52,3 +52,4 @@ CREATE TABLE IF NOT EXISTS `ident_switch`
 	INDEX `IX_ident_switch_iid`(`iid`)
 );
 
+ALTER TABLE `ident_switch` MODIFY `password` varchar(256);
